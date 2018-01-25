@@ -1,0 +1,30 @@
+ <!-- Demo localStorage -->
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		if(typeof(Storage) !== "undefined"){
+			var name = 'Hien';
+			localStorage.setItem('name', name);
+			var fullname = 'Nguyen Thi Thu Hien'; 
+			sessionStorage.fullname = fullname;
+		}
+		else {
+			document.write("Your browser don't support local Storage");
+		}
+	</script>
+</head>
+<body>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
